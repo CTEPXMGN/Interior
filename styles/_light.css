@@ -1,0 +1,21 @@
+.light {
+  .top-line {
+    border-color: #e5e5e5;
+  }
+
+  .logo {
+    background-image: url(../assets/logo-light.svg);
+  }
+
+  .main-menu a {
+    color: #777;
+  }
+  .main-menu li.active a {
+    color: var(--body-color);
+  }
+
+}
+
+.light .icon-font-light::before {
+  content: '\E802';
+}
