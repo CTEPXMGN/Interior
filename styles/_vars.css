@@ -15,7 +15,7 @@
   --slider-bottom-height: 65px;
   --slider-padding: 35px;
 
-
+  --swiper-navigation-size: 15px !important;
 }
 
 .light {
