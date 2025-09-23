@@ -121,7 +121,7 @@
 }
 
 .head-slider__header {
-  font-size: 77.5px;
+  font-size: 75px;
   font-weight: 300;
   line-height: 5.125rem;
   letter-spacing: 3.75px;
@@ -134,6 +134,10 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 55px;
+  margin-top: -25px;
+  z-index: 2;
+  position: relative;
+  pointer-events: none;
 }
 
 .head-slider__more a {
@@ -144,6 +148,7 @@
   letter-spacing: 1.5px;
   margin-top: 15px;
   padding-left: 56px;
+  pointer-events: all;
 }
 
 .head-slider__more a::before {

@@ -14,8 +14,16 @@ const swiper = new Swiper(".head-slider", {
   effect: "slide",
   speed: 1000,
   loop: true,
-  slidesPerView: 3,
-  spaceBetween: 30,
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    }
+  },
   mousewheel: true,
   pagination: {
     el: ".swiper-pagination",
